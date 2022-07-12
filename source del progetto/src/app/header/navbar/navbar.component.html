@@ -1,0 +1,7 @@
+<mat-toolbar  class="navbar" color="primary">
+  <span>News App</span>
+  <span class="example-spacer"></span>
+  <button *ngIf="this.currentRoute == '/login' " [routerLink]="['/signup/']" mat-button color="warn" >Registrati!</button>
+  <button *ngIf="this.currentRoute == '/signup' " [routerLink]="['/login/']" mat-button color="warn" >Accedi!</button>
+  <button *ngIf="this.currentRoute !='/signup' && this.currentRoute != '/login' " mat-button color="warn" (click)="logout()" >Logout</button>
+</mat-toolbar>

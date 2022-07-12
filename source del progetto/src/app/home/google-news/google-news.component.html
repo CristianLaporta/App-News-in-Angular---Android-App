@@ -1,0 +1,14 @@
+<div class="center">
+    <div class="ng">
+    <div  *ngFor="let news of news[0]"> 
+      <div>
+      <mat-card class="example-card">
+        <mat-card-title-group>
+          <mat-card-title>{{news.title}}</mat-card-title>
+          <mat-card-subtitle>{{news.description}}</mat-card-subtitle>
+          <img mat-card-sm-image src="{{news.urlToImage}}" >
+          
+        </mat-card-title-group>
+        <button mat-button (click)="openDialog(); savedata(news.title,news.content,news.author,news.urlToImage)">Leggi articolo Completo...</button>
+      </mat-card></div>
+    </div></div></div>

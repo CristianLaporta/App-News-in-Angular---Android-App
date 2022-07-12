@@ -28,11 +28,6 @@ const routes: Routes = [
   },
 
   {
-    path: 'contact',
-    canActivate: [AuthGuard],
-    loadChildren: () => import('./contact/contact.module').then(m => m.ContactModule)
-  },
-  {
     path: '**',
     /* component: ErrPage */
     loadChildren: () => import('./err404/err404.module').then(m => m.Err404Module)

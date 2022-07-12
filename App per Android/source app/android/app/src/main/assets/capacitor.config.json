@@ -1,0 +1,6 @@
+{
+	"appId": "com.newsappcris.angular",
+	"appName": "NewsAppCris",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}

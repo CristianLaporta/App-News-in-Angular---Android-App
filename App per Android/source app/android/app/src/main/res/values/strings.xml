@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">NewsAppCris</string>
+    <string name="title_activity_main">NewsAppCris</string>
+    <string name="package_name">com.newsappcris.angular</string>
+    <string name="custom_url_scheme">com.newsappcris.angular</string>
+</resources>
